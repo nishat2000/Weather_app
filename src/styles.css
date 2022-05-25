@@ -28,7 +28,7 @@
   
   .container {
     width: 400px;
-    height: 80vh;
+    height: 90vh;
     background-color: var(--blue-2);
     border-radius: 20px;
     box-shadow: 10px 10px 10px var(--shadow-dark);
@@ -135,3 +135,18 @@
     color: var(--white);
   }
   
+  .search{
+    margin-bottom: 1em;
+    text-align: center;
+  }
+
+  .search input{
+    background-color: var(--shadow-light);
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 1em;
+    color: var(--grey-1);
+    font-size: 0.8em;
+    text-align: center;
+  }
