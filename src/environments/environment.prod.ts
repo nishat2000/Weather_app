@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  weatherApiBaseUrl: 'https://community-open-weather-map.p.rapidapi.com/weather',
 };
